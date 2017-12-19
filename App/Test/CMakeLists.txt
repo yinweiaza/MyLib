@@ -1,5 +1,8 @@
-INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/Include)
-ADD_EXECUTABLE(myTest main.cpp)
-LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib/Debug)
-TARGET_LINK_LIBRARIES(myTest mk_lib)
+set(CPP main.cpp)
+find_library(lmtc_LIB LMTC ${LIBRARY_DIRS})
 
+if( NOT lmtc_LIB )
+	Message("lmtc  lib  not found!!")	
+endif( NOT lmtc_LIB )
+
+CREATE_EXAMPLE(MYTEST ${CPP}  LMTC)

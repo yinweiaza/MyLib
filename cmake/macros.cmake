@@ -43,12 +43,12 @@ macro(MYLIB_ADD_LIBRARY LIBNAME LIBTYPE LIBFILES)
 	endif(MSVC)
 
 	#install setting
-	install(TARGETS ${LIBRARY_NAME}
+		install(TARGETS ${LIBRARY_NAME}
 		EXPORT MYLIB-Targets
-		RUNTIME DESTINATION ${MYLIB_BINDIR}
-		LIBRARY DESTINATION ${MYLIB_LIBDIR}
-		ARCHIVE DESTINATION ${MYLIB_LIBDIR}
-		}
+		RUNTIME DESTINATION ${MYLIB_BINARY_DIR}/bin
+		LIBRARY DESTINATION ${MYLIB_BINARY_DIR}/lib
+		ARCHIVE DESTINATION ${MYLIB_BINARY_DIR}/bin
+		)
 endmacro(MYLIB_ADD_LIBRARY LIBNAME LIBTYPE LIBFILES)
 
 
@@ -57,15 +57,13 @@ function(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
 	set(srcs)
 	set(tname ${NAME})
 
-	foreach(src ${SOURCES)
+	foreach(src ${SOURCES})
 		if("${src}" MATCHES  "\\.fl$")
 			list(APPEND flsrcs ${src})
 		else()
 			list(APPEND srcs ${src})
 		endif("${src}" MATCHES  "\\.fl$")
-	endforeach(src ${SOURCES)
-
-	endforeach(src ${SOURCES)
+	endforeach(src ${SOURCES})
 
 	add_executable(${tname} WIN32 ${srcs})
 
@@ -75,3 +73,26 @@ function(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
 
 	target_link_libraries(${tname} ${LIBRARIES})
 endfunction(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
+
+macro(INSTALL_FILES_FUN  SRC_FILES_DIR  FILES_EXT DESTINATION_DIR)
+	if (FILES_EXT MATCHES "lib")
+		set(THE_EXT  "*.lib")
+	elseif(FILES_EXT MATCHES ".h")
+		set(THE_EXT  "*.h")
+	elseif(FILES_EXT MATCHES "dll")
+		set(THE_EXT  "*.dll")
+	endif(FILES_EXT MATCHES "lib")
+
+	if(EXISTS ${SRC_FILES_DIR})
+		Message(STATUS "${SRC_FILES_DIR}  found")
+		FILE(GLOB_RECURSE FILES_ALL "${SRC_FILES_DIR}/${THE_EXT}")
+		#check the destination dir exists?
+		if(EXISTS ${DESTINATION_DIR})
+			install(FILES ${FILES_ALL} DESTINATION ${DESTINATION_DIR})
+		elseif(EXISTS ${DESTINATION_DIR})
+			Message(STATUS "destination dir ${DESTINATION_DIR} not exist!")
+		endif(EXISTS ${DESTINATION_DIR})
+	else(EXISTS ${SRC_FILES_DIR})
+		Message(STATUS "${SRC_FILES_DIR} not found")
+	endif(EXISTS ${SRC_FILES_DIR})
+endmacro(INSTALL_FILES_FUN  SRC_FILES_DIR  FILES_EXT DESTINATION_DIR)
