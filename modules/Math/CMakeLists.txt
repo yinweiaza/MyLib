@@ -1,3 +1,3 @@
 file(GLOB  CPPFILE  ./*.cpp)
+MYLIB_ADD_LIBRARY(LMTC STATIC "${CPPFILE}")
 
-add_library(LMTC STATIC ${CPPFILE})

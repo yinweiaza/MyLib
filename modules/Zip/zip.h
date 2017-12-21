@@ -13,6 +13,8 @@ typedef FILE* HANDLE;
 typedef time_t FILETIME;
 #endif
 
+#include <atlconv.h>
+
 // ZIP functions -- for creating zip files
 // This file is a repackaged form of the Info-Zip source code available
 // at www.info-zip.org. The original copyright notice may be found in

@@ -7,6 +7,7 @@ if( " ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
 	FATAL: In Source builds are not allowed,
 	you should create separate directory for build files.
 	")
+endif( " ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
 
 #functions  macros
 include(cmake/FLTK-Functions.cmake)
@@ -21,11 +22,6 @@ include(cmake/resources.cmake)
 #options
 include(cmake/options.cmake)
 
-#build the test examples or not?
-if(OPTION_BUILD_EXAMPLES)
-	add_subdirectory(App)
-endif(OPTION_BUILD_EXAMPLES)
-
 #variables shared by export and install
 include(cmake/variables.cmake)
 
@@ -34,4 +30,3 @@ include(cmake/export.cmake)
 
 #install
 include(cmake/install.cmake)
-

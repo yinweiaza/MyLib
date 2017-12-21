@@ -1,0 +1,6 @@
+F:/study/MyLib/build/bin/LMTCd.lib
+F:/study/MyLib/build/include/unzip.h
+F:/study/MyLib/build/include/zconf.h
+F:/study/MyLib/build/include/zip.h
+F:/study/MyLib/build/include/zlib.h
+F:/study/MyLib/build/bin/zipd.lib

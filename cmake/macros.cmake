@@ -22,6 +22,7 @@ macro(MYLIB_ADD_LIBRARY LIBNAME LIBTYPE LIBFILES)
 		DEBUG_OUTPUT_NAME ${LIBRARY_NAME_DEBUG}
 		CLEAN_DIRECT_OUTPUT TRUE
 		COMPLIER_DEFINITIONS "MYLIB_LIBRARY"
+		ARCHIVE_OUTPUT_DIRECTORY	${LIB_DIR}
 		)
 
 	if (${LIBTYPE} STREQUAL "SHARED")
@@ -38,6 +39,7 @@ macro(MYLIB_ADD_LIBRARY LIBNAME LIBTYPE LIBFILES)
 			set_target_properties(${LIBRARY_NAME}
 				PROPERTIES
 				COMPLIER_DEFINITIONS "MYLIB_DLL"
+				LIBRARY_OUTPUT_DIRECTORY	${LIB_DIR}
 				)
 		endif(${LIBTYPE} STREQUAL "SHARED")
 	endif(MSVC)
@@ -65,34 +67,13 @@ function(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
 		endif("${src}" MATCHES  "\\.fl$")
 	endforeach(src ${SOURCES})
 
-	add_executable(${tname} WIN32 ${srcs})
+	add_executable(${tname}  ${srcs})
 
 	set_target_properties(${tname}
 		PROPERTIES OUTPUT_NAME ${NAME}
 		)
+	Message(STATUS "${lIBRARIES}")
 
-	target_link_libraries(${tname} ${LIBRARIES})
+	target_link_libraries(${tname} ${lIBRARIES})
 endfunction(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
 
-macro(INSTALL_FILES_FUN  SRC_FILES_DIR  FILES_EXT DESTINATION_DIR)
-	if (FILES_EXT MATCHES "lib")
-		set(THE_EXT  "*.lib")
-	elseif(FILES_EXT MATCHES ".h")
-		set(THE_EXT  "*.h")
-	elseif(FILES_EXT MATCHES "dll")
-		set(THE_EXT  "*.dll")
-	endif(FILES_EXT MATCHES "lib")
-
-	if(EXISTS ${SRC_FILES_DIR})
-		Message(STATUS "${SRC_FILES_DIR}  found")
-		FILE(GLOB_RECURSE FILES_ALL "${SRC_FILES_DIR}/${THE_EXT}")
-		#check the destination dir exists?
-		if(EXISTS ${DESTINATION_DIR})
-			install(FILES ${FILES_ALL} DESTINATION ${DESTINATION_DIR})
-		elseif(EXISTS ${DESTINATION_DIR})
-			Message(STATUS "destination dir ${DESTINATION_DIR} not exist!")
-		endif(EXISTS ${DESTINATION_DIR})
-	else(EXISTS ${SRC_FILES_DIR})
-		Message(STATUS "${SRC_FILES_DIR} not found")
-	endif(EXISTS ${SRC_FILES_DIR})
-endmacro(INSTALL_FILES_FUN  SRC_FILES_DIR  FILES_EXT DESTINATION_DIR)

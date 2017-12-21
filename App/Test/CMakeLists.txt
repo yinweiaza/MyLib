@@ -1,8 +1,10 @@
 set(CPP main.cpp)
-find_library(lmtc_LIB LMTC ${LIBRARY_DIRS})
+CREATE_EXAMPLE(MYTEST "${CPP}"  LMTC)
+set(CMAKE_MFC_FLAG 1)
+add_dependencies(MYTEST LMTC)
+set_target_properties(MYTEST 
+		PROPERTIES
+		LINK_FLAGS_DEBUG "/SUBSYSTEM:CONSOLE"
+		RUNTIME_OUTPUT_DIRECTORY ${EXE_BIN_DIR}
+		)
 
-if( NOT lmtc_LIB )
-	Message("lmtc  lib  not found!!")	
-endif( NOT lmtc_LIB )
-
-CREATE_EXAMPLE(MYTEST ${CPP}  LMTC)
