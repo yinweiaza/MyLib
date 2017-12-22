@@ -10,12 +10,10 @@ set (SRCS
 
 include_directories(../)
 
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
-
-add_library(tnet_redis ${SRCS})
+MYLIB_ADD_LIBRARY(tnet_redis  STATIC  "${SRCS}") 
 target_link_libraries(tnet_redis tnet)
 
-install(TARGETS tnet_redis DESTINATION lib)
+#install(TARGETS tnet_redis DESTINATION ${MYLIB_BINARY_DIR}/lib)
 
 set (HEADERS
     hiredis.h
@@ -24,5 +22,5 @@ set (HEADERS
     tnet_redis.h
     )
 
-install(FILES ${HEADERS} DESTINATION include/tnet/redis)
+install(FILES ${HEADERS} DESTINATION ${MYLIB_BINARY_DIR}/include) 
    

@@ -20,12 +20,11 @@ set (SRCS
     polarssl/sha1.c
     )
 
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
+include_directories(../)
 
-add_library(tnet ${SRCS})
+MYLIB_ADD_LIBRARY(tnet STATIC "${SRCS}")
+
 target_link_libraries(tnet rt)
-
-install(TARGETS tnet DESTINATION lib)
 
 set (HEADERS
     address.h
@@ -45,8 +44,9 @@ set (HEADERS
     tnet.h 
     )
 
-install(FILES ${HEADERS} DESTINATION include/tnet)
-
+install(FILES ${HEADERS} DESTINATION ${MYLIB_BINARY_DIR}/lib)
 
 add_subdirectory(http)
 add_subdirectory(redis)
+add_subdirectory(polarssl)
+

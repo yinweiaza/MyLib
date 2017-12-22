@@ -19,12 +19,9 @@ add_definitions(-DHTTP_PARSER_STRICT=0)
 
 include_directories(../)
 
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/lib)
-
-add_library(tnet_http ${SRCS})
+MYLIB_ADD_LIBRARY(tnet_http STATIC "${SRCS}")
 target_link_libraries(tnet_http tnet)
 
-install(TARGETS tnet_http DESTINATION lib)
 
 set (HEADERS
     httpclient.h
