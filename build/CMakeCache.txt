@@ -169,9 +169,6 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
 
-//Path to a library.
-LIB_LMTC:FILEPATH=LIB_LMTC-NOTFOUND
-
 //Dependencies for target
 LMTC_LIB_DEPENDS:STATIC=
 
@@ -194,40 +191,13 @@ OPTION_USE_FLTK_GUI:BOOL=ON
 OPTION_USE_LMTC_LIB:BOOL=ON
 
 //use NET lib or not
-OPTION_USE_NET_LIB:BOOL=ON
+OPTION_USE_NET_LIB:BOOL=OFF
 
 //use sdl as gui lib
 OPTION_USE_SDL_GUI:BOOL=OFF
 
 //use ZIP lib or not
 OPTION_USE_ZIP:BOOL=ON
-
-//Dependencies for the target
-tnet_LIB_DEPENDS:STATIC=general;rt;
-
-//Dependencies for target
-tnet_common_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-tnet_ftp_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-tnet_httpClient_LIB_DEPENDS:STATIC=
-
-//Dependencies for the target
-tnet_http_LIB_DEPENDS:STATIC=general;tnet;
-
-//Dependencies for target
-tnet_p2pC_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-tnet_p2pS_LIB_DEPENDS:STATIC=
-
-//Dependencies for the target
-tnet_polarssl_LIB_DEPENDS:STATIC=general;tnet;
-
-//Dependencies for the target
-tnet_redis_LIB_DEPENDS:STATIC=general;tnet;
 
 //Dependencies for target
 zip_LIB_DEPENDS:STATIC=
@@ -237,7 +207,7 @@ zip_LIB_DEPENDS:STATIC=
 # INTERNAL cache entries
 ########################
 
-//All FLTK lib
+//all fltk lib
 ALL_FLTK_LIB:INTERNAL=F:/study/MyLib/3rdparty/lib/fltk/fltk_formsd.lib;F:/study/MyLib/3rdparty/lib/fltk/fltk_gld.lib;F:/study/MyLib/3rdparty/lib/fltk/fltk_imagesd.lib;F:/study/MyLib/3rdparty/lib/fltk/fltk_jpegd.lib;F:/study/MyLib/3rdparty/lib/fltk/fltk_pngd.lib;F:/study/MyLib/3rdparty/lib/fltk/fltk_zd.lib;F:/study/MyLib/3rdparty/lib/fltk/fltkd.lib
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=f:/study/MyLib/build
@@ -315,7 +285,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

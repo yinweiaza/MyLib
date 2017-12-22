@@ -122,6 +122,7 @@ F:/study/MyLib/build/include/FL/Fl_Window.H
 F:/study/MyLib/build/include/FL/Fl_Wizard.H
 F:/study/MyLib/build/include/FL/Fl_XBM_Image.H
 F:/study/MyLib/build/include/FL/Fl_XPM_Image.H
+F:/study/MyLib/build/include/FL/abi-version.h
 F:/study/MyLib/build/include/FL/dirent.h
 F:/study/MyLib/build/include/FL/filename.H
 F:/study/MyLib/build/include/FL/fl_ask.H

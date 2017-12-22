@@ -33,7 +33,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("F:/study/MyLib/build/3rdparty/cmake_install.cmake")
   include("F:/study/MyLib/build/App/cmake_install.cmake")
   include("F:/study/MyLib/build/modules/Zip/cmake_install.cmake")
-  include("F:/study/MyLib/build/modules/Net/cmake_install.cmake")
 
 endif()
 

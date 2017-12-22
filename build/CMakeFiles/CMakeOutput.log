@@ -58,15 +58,15 @@ The CXX compiler identification is MSVC, found in "F:/study/MyLib/build/CMakeFil
 Determining if the C compiler works passed with the following output:
 Change Dir: F:/study/MyLib/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_12b56"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_c9283"
 
 Microsoft (R) Visual Studio 9.0.30729.1 版。
 版权所有(C) Microsoft Corp。保留所有权利。
-1>------ 已启动生成: 项目: cmTC_12b56, 配置: Debug Win32 ------
+1>------ 已启动生成: 项目: cmTC_c9283, 配置: Debug Win32 ------
 1>正在编译...
 1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
 1>版权所有(C) Microsoft Corporation。保留所有权利。
-1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_12b56.dir\Debug\\" /Fd"cmTC_12b56.dir\Debug\vc90.pdb" /W3 /c /Zi /TC .\testCCompiler.c
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_c9283.dir\Debug\\" /Fd"cmTC_c9283.dir\Debug\vc90.pdb" /W3 /c /Zi /TC .\testCCompiler.c
 1>testCCompiler.c
 1>正在编译资源清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
@@ -75,23 +75,23 @@ Microsoft (R) Visual Studio 9.0.30729.1 版。
 1>正在嵌入清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
 1>Copyright (C) Microsoft Corporation.  All rights reserved.
-1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_12b56.dir\Debug\BuildLog.htm”
-1>cmTC_12b56 - 0 个错误，0 个警告
+1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_c9283.dir\Debug\BuildLog.htm”
+1>cmTC_c9283 - 0 个错误，0 个警告
 ========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: F:/study/MyLib/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_638b9"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_f6e69"
 
 Microsoft (R) Visual Studio 9.0.30729.1 版。
 版权所有(C) Microsoft Corp。保留所有权利。
-1>------ 已启动生成: 项目: cmTC_638b9, 配置: Debug Win32 ------
+1>------ 已启动生成: 项目: cmTC_f6e69, 配置: Debug Win32 ------
 1>正在编译...
 1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
 1>版权所有(C) Microsoft Corporation。保留所有权利。
-1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_638b9.dir\Debug\\" /Fd"cmTC_638b9.dir\Debug\vc90.pdb" /W3 /c /Zi /TC "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTC_f6e69.dir\Debug\\" /Fd"cmTC_f6e69.dir\Debug\vc90.pdb" /W3 /c /Zi /TC "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
 1>CMakeCCompilerABI.c
 1>正在编译资源清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
@@ -100,23 +100,23 @@ Microsoft (R) Visual Studio 9.0.30729.1 版。
 1>正在嵌入清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
 1>Copyright (C) Microsoft Corporation.  All rights reserved.
-1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_638b9.dir\Debug\BuildLog.htm”
-1>cmTC_638b9 - 0 个错误，0 个警告
+1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_f6e69.dir\Debug\BuildLog.htm”
+1>cmTC_f6e69 - 0 个错误，0 个警告
 ========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
 
 
 Determining if the CXX compiler works passed with the following output:
 Change Dir: F:/study/MyLib/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_3acc0"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_f88f0"
 
 Microsoft (R) Visual Studio 9.0.30729.1 版。
 版权所有(C) Microsoft Corp。保留所有权利。
-1>------ 已启动生成: 项目: cmTC_3acc0, 配置: Debug Win32 ------
+1>------ 已启动生成: 项目: cmTC_f88f0, 配置: Debug Win32 ------
 1>正在编译...
 1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
 1>版权所有(C) Microsoft Corporation。保留所有权利。
-1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_3acc0.dir\Debug\\" /Fd"cmTC_3acc0.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\testCXXCompiler.cxx
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_f88f0.dir\Debug\\" /Fd"cmTC_f88f0.dir\Debug\vc90.pdb" /W3 /c /Zi /TP .\testCXXCompiler.cxx
 1>testCXXCompiler.cxx
 1>正在编译资源清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
@@ -125,23 +125,23 @@ Microsoft (R) Visual Studio 9.0.30729.1 版。
 1>正在嵌入清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
 1>Copyright (C) Microsoft Corporation.  All rights reserved.
-1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_3acc0.dir\Debug\BuildLog.htm”
-1>cmTC_3acc0 - 0 个错误，0 个警告
+1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_f88f0.dir\Debug\BuildLog.htm”
+1>cmTC_f88f0 - 0 个错误，0 个警告
 ========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: F:/study/MyLib/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_b24fa"
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio 9.0/Common7/IDE/devenv.com" "CMAKE_TRY_COMPILE.sln" "/build" "Debug" "/project" "cmTC_3fbbc"
 
 Microsoft (R) Visual Studio 9.0.30729.1 版。
 版权所有(C) Microsoft Corp。保留所有权利。
-1>------ 已启动生成: 项目: cmTC_b24fa, 配置: Debug Win32 ------
+1>------ 已启动生成: 项目: cmTC_3fbbc, 配置: Debug Win32 ------
 1>正在编译...
 1>用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 15.00.30729.01 版
 1>版权所有(C) Microsoft Corporation。保留所有权利。
-1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_b24fa.dir\Debug\\" /Fd"cmTC_b24fa.dir\Debug\vc90.pdb" /W3 /c /Zi /TP "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTC_3fbbc.dir\Debug\\" /Fd"cmTC_3fbbc.dir\Debug\vc90.pdb" /W3 /c /Zi /TP "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
 1>CMakeCXXCompilerABI.cpp
 1>正在编译资源清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
@@ -150,8 +150,8 @@ Microsoft (R) Visual Studio 9.0.30729.1 版。
 1>正在嵌入清单...
 1>Microsoft (R) Windows (R) Resource Compiler Version 6.1.6723.1
 1>Copyright (C) Microsoft Corporation.  All rights reserved.
-1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_b24fa.dir\Debug\BuildLog.htm”
-1>cmTC_b24fa - 0 个错误，0 个警告
+1>生成日志保存在“file://f:\study\MyLib\build\CMakeFiles\CMakeTmp\cmTC_3fbbc.dir\Debug\BuildLog.htm”
+1>cmTC_3fbbc - 0 个错误，0 个警告
 ========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
 
 

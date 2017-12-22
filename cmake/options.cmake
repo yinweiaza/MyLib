@@ -23,7 +23,7 @@ option(OPTION_USE_ZIP  "use ZIP lib or not"  ON)
 #######################################################################
 
 #######################################################################
-option(OPTION_USE_NET_LIB  "use NET lib or not"  ON)
+option(OPTION_USE_NET_LIB  "use NET lib or not"  OFF)
 #######################################################################
 
 if (OPTION_USE_LMTC_LIB)

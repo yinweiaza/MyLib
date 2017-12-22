@@ -11,4 +11,3 @@ F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/INSTALL.dir
 F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/FLTK_TEST.dir
 F:/study/MyLib/build/modules/Zip/CMakeFiles/zip.dir
 F:/study/MyLib/build/modules/Zip/CMakeFiles/INSTALL.dir
-F:/study/MyLib/build/modules/Net/CMakeFiles/INSTALL.dir
