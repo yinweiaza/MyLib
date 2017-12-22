@@ -72,7 +72,6 @@ function(CREATE_EXAMPLE NAME SOURCES lIBRARIES)
 	set_target_properties(${tname}
 		PROPERTIES OUTPUT_NAME ${NAME}
 		)
-	Message(STATUS "${lIBRARIES}")
 
 	target_link_libraries(${tname} ${lIBRARIES})
 endfunction(CREATE_EXAMPLE NAME SOURCES lIBRARIES)

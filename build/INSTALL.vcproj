@@ -1,39 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding = "UTF-8"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="INSTALL"
 	ProjectGUID="{3D54CEDA-2BFD-359E-BCCD-3DA028B04C16}"
-	RootNamespace="INSTALL"
-	Keyword="Win32Proj"
-	TargetFrameworkVersion="0"
-	>
+	Keyword="Win32Proj">
 	<Platforms>
 		<Platform
-			Name="Win32"
-		/>
+			Name="Win32"/>
 	</Platforms>
-	<ToolFiles>
-	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
-			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="INSTALL.dir\Debug"
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
+			CharacterSet="2">
 			<Tool
-				Name="VCPreBuildEventTool"
-			/>
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="Debug/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
 			<Tool
-				Name="VCCustomBuildTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -42,12 +42,14 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"
-			/>
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-			/>
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -55,17 +57,24 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
+			CharacterSet="2">
 			<Tool
-				Name="VCPreBuildEventTool"
-			/>
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="Release/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
 			<Tool
-				Name="VCCustomBuildTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -74,12 +83,14 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"
-			/>
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-			/>
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -87,17 +98,24 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
+			CharacterSet="2">
 			<Tool
-				Name="VCPreBuildEventTool"
-			/>
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="MinSizeRel/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
 			<Tool
-				Name="VCCustomBuildTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -106,12 +124,14 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"
-			/>
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-			/>
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -119,17 +139,24 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2"
-			>
+			CharacterSet="2">
 			<Tool
-				Name="VCPreBuildEventTool"
-			/>
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
 			<Tool
-				Name="VCCustomBuildTool"
-			/>
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -138,66 +165,57 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"
-			/>
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-			/>
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(ConfigurationName) -P cmake_install.cmake&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
 		</Configuration>
 	</Configurations>
-	<References>
-	</References>
 	<Files>
 		<Filter
 			Name="CMake Rules"
-			>
+			Filter="">
 			<File
-				RelativePath="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
-				>
+				RelativePath="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule">
 				<FileConfiguration
-					Name="Debug|Win32"
-					>
+					Name="Debug|Win32">
 					<Tool
-						Name="VCCustomBuildTool"
-						Description=" "
-						CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-						AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
-						Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"
-					/>
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
+					Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="Release|Win32"
-					>
+					Name="Release|Win32">
 					<Tool
-						Name="VCCustomBuildTool"
-						Description=" "
-						CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-						AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
-						Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"
-					/>
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
+					Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="MinSizeRel|Win32"
-					>
+					Name="MinSizeRel|Win32">
 					<Tool
-						Name="VCCustomBuildTool"
-						Description=" "
-						CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-						AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
-						Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"
-					/>
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
+					Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"/>
 				</FileConfiguration>
 				<FileConfiguration
-					Name="RelWithDebInfo|Win32"
-					>
+					Name="RelWithDebInfo|Win32">
 					<Tool
-						Name="VCCustomBuildTool"
-						Description=" "
-						CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
-						AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
-						Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"
-					/>
+					Name="VCCustomBuildTool"
+					Description=" "
+					CommandLine="cd .&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\build\CMakeFiles\INSTALL_force.rule"
+					Outputs="F:\study\MyLib\build\CMakeFiles\INSTALL_force"/>
 				</FileConfiguration>
 			</File>
 		</Filter>

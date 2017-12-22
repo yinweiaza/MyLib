@@ -20,7 +20,7 @@
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="Debug/"
 				BasicRuntimeChecks="3"
 				CompileAs="2"
@@ -38,11 +38,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -85,7 +85,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="Release/"
 				CompileAs="2"
 				ExceptionHandling="1"
@@ -101,11 +101,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -147,7 +147,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="MinSizeRel/"
 				CompileAs="2"
 				ExceptionHandling="1"
@@ -163,11 +163,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -209,7 +209,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				CompileAs="2"
 				DebugInformationFormat="3"
@@ -226,11 +226,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory 
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"

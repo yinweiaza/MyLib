@@ -7,5 +7,7 @@ F:/study/MyLib/build/3rdparty/CMakeFiles/INSTALL.dir
 F:/study/MyLib/build/App/CMakeFiles/INSTALL.dir
 F:/study/MyLib/build/App/Test/CMakeFiles/MYTEST.dir
 F:/study/MyLib/build/App/Test/CMakeFiles/INSTALL.dir
+F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/INSTALL.dir
+F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/FLTK_TEST.dir
 F:/study/MyLib/build/modules/Zip/CMakeFiles/zip.dir
 F:/study/MyLib/build/modules/Zip/CMakeFiles/INSTALL.dir

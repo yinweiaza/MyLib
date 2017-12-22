@@ -19,7 +19,7 @@
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="Debug/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
@@ -29,11 +29,11 @@
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -60,7 +60,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="Release/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
@@ -70,11 +70,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -101,7 +101,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="MinSizeRel/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
@@ -111,11 +111,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"
@@ -142,7 +142,7 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				AssemblerListingLocation="RelWithDebInfo/"
 				ExceptionHandling="0"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
@@ -152,11 +152,11 @@ CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -DBUILD_TYPE=$(Con
 				Name="VCCustomBuildTool"/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
 			<Tool
 				Name="VCMIDLTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\3RD_PARTY;"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\include;F:\study\MyLib\&quot;$&quot;{VC_INSTALL_ROOT}\atlmfc;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
 				MkTypLibCompatible="false"
 				TargetEnvironment="1"
 				GenerateStublessProxies="true"

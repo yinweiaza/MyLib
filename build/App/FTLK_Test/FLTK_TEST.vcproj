@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="FLTK_TEST"
+	ProjectGUID="{437B3841-4CDE-3FF4-8EA5-BDA606EE05D0}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="F:\study\MyLib\build\bin\Debug"
+			IntermediateDirectory="FLTK_TEST.dir\Debug"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory F:/study/MyLib/build/App/FTLK_Test/Debug&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib fltk_formsd.lib fltk_gld.lib fltk_imagesd.lib fltk_jpegd.lib fltk_pngd.lib fltk_zd.lib fltkd.lib "
+				OutputFile="F:\study\MyLib\build\bin\Debug\FLTK_TEST.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86 /debug /SUBSYSTEM:WINDOWS"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\lib\$(ConfigurationName),..\..\lib"
+				ProgramDatabaseFile="F:\study\MyLib\build\bin\Debug/FLTK_TEST.pdb"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				ImportLibrary="F:\study\MyLib\build\App\FTLK_Test\Debug\FLTK_TEST.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="F:\study\MyLib\build\bin\Release"
+			IntermediateDirectory="FLTK_TEST.dir\Release"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="Release/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory F:/study/MyLib/build/App/FTLK_Test/Release&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib fltk_formsd.lib fltk_gld.lib fltk_imagesd.lib fltk_jpegd.lib fltk_pngd.lib fltk_zd.lib fltkd.lib "
+				OutputFile="F:\study\MyLib\build\bin\Release\FLTK_TEST.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\lib\$(ConfigurationName),..\..\lib"
+				ProgramDatabaseFile="F:\study\MyLib\build\bin\Release/FLTK_TEST.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\study\MyLib\build\App\FTLK_Test\Release\FLTK_TEST.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="F:\study\MyLib\build\bin\MinSizeRel"
+			IntermediateDirectory="FLTK_TEST.dir\MinSizeRel"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory F:/study/MyLib/build/App/FTLK_Test/MinSizeRel&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib fltk_formsd.lib fltk_gld.lib fltk_imagesd.lib fltk_jpegd.lib fltk_pngd.lib fltk_zd.lib fltkd.lib "
+				OutputFile="F:\study\MyLib\build\bin\MinSizeRel\FLTK_TEST.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\..\lib\$(ConfigurationName),..\..\lib"
+				ProgramDatabaseFile="F:\study\MyLib\build\bin\MinSizeRel/FLTK_TEST.pdb"
+				SubSystem="1"
+				ImportLibrary="F:\study\MyLib\build\App\FTLK_Test\MinSizeRel\FLTK_TEST.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="F:\study\MyLib\build\bin\RelWithDebInfo"
+			IntermediateDirectory="FLTK_TEST.dir\RelWithDebInfo"
+			ConfigurationType="1"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"
+CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -E make_directory F:/study/MyLib/build/App/FTLK_Test/RelWithDebInfo&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="false"
+				AdditionalDependencies="$(NOINHERIT) kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib fltk_formsd.lib fltk_gld.lib fltk_imagesd.lib fltk_jpegd.lib fltk_pngd.lib fltk_zd.lib fltkd.lib "
+				OutputFile="F:\study\MyLib\build\bin\RelWithDebInfo\FLTK_TEST.exe"
+				Version="0.0"
+				AdditionalOptions="/machine:X86 /debug"
+				LinkIncremental="2"
+				AdditionalLibraryDirectories="..\..\lib\$(ConfigurationName),..\..\lib"
+				ProgramDatabaseFile="F:\study\MyLib\build\bin\RelWithDebInfo/FLTK_TEST.pdb"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				ImportLibrary="F:\study\MyLib\build\App\FTLK_Test\RelWithDebInfo\FLTK_TEST.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\study\MyLib\App\FTLK_Test\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/App/FTLK_Test/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\App\FTLK_Test\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/App/FTLK_Test/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\App\FTLK_Test\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/App/FTLK_Test/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\App\FTLK_Test\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/App/FTLK_Test/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/App/FTLK_Test/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;F:\study\MyLib\App\FTLK_Test\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\App\FTLK_Test\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\study\MyLib\App\FTLK_Test\test.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

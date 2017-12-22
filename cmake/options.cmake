@@ -29,8 +29,8 @@ if (OPTION_USE_LMTC_LIB)
 endif(OPTION_USE_LMTC_LIB)
 
 if (OPTION_USE_SDL_GUI OR OPTION_USE_FLTK_GUI OR OPTION_USE_FFMPEG)
-	set(3RD_PARTY ${MYLIB_SOURCE_DIR}/3rdparty/include)
-	include_directories(3RD_PARTY)
+	#set(3RD_PARTY ${MYLIB_SOURCE_DIR}/3rdparty/include)
+	#include_directories(3RD_PARTY)
 	add_subdirectory(${MYLIB_SOURCE_DIR}/3rdparty)
 endif(OPTION_USE_SDL_GUI OR OPTION_USE_FLTK_GUI OR OPTION_USE_FFMPEG)
 
