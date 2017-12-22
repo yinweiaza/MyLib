@@ -1,6 +1,0 @@
-add_subdirectory(Common)
-add_subdirectory(FTPClient)
-add_subdirectory(HTTPClient)
-add_subdirectory(P2PClient)
-add_subdirectory(P2PServer)
-add_subdirectory(src)

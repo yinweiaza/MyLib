@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding = "UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="ALL_BUILD"
 	ProjectGUID="{FE004E9C-7EA6-3761-8046-A07C8B9AE1F7}"
-	Keyword="Win32Proj">
+	RootNamespace="ALL_BUILD"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
 	<Platforms>
 		<Platform
-			Name="Win32"/>
+			Name="Win32"
+		/>
 	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
 	<Configurations>
 		<Configuration
 			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="ALL_BUILD.dir\Debug"
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				AssemblerListingLocation="Debug/"
-				ExceptionHandling="0"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
@@ -42,13 +42,11 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
@@ -56,21 +54,14 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				AssemblerListingLocation="Release/"
-				ExceptionHandling="0"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
@@ -82,13 +73,11 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="MinSizeRel|Win32"
@@ -96,21 +85,14 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				AssemblerListingLocation="MinSizeRel/"
-				ExceptionHandling="0"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
@@ -122,13 +104,11 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 		<Configuration
 			Name="RelWithDebInfo|Win32"
@@ -136,21 +116,14 @@
 			ConfigurationType="10"
 			UseOfMFC="0"
 			ATLMinimizesCRunTimeLibraryUsage="false"
-			CharacterSet="2">
+			CharacterSet="2"
+			>
 			<Tool
-				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				AssemblerListingLocation="RelWithDebInfo/"
-				ExceptionHandling="0"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
-				ObjectFile="$(IntDir)\"
-/>
+				Name="VCPreBuildEventTool"
+			/>
 			<Tool
-				Name="VCCustomBuildTool"/>
-			<Tool
-				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
-				PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				Name="VCCustomBuildTool"
+			/>
 			<Tool
 				Name="VCMIDLTool"
 				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;"
@@ -162,55 +135,64 @@
 				HeaderFileName="$(InputName).h"
 				DLLDataFileName=""
 				InterfaceIdentifierFileName="$(InputName)_i.c"
-				ProxyFileName="$(InputName)_p.c"/>
+				ProxyFileName="$(InputName)_p.c"
+			/>
 			<Tool
-				Name="VCPreBuildEventTool"/>
-			<Tool
-				Name="VCPreLinkEventTool"/>
-			<Tool
-				Name="VCPostBuildEventTool"/>
+				Name="VCPostBuildEventTool"
+			/>
 		</Configuration>
 	</Configurations>
+	<References>
+	</References>
 	<Files>
-			<File
-				RelativePath="F:\study\MyLib\CMakeLists.txt">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
+		<File
+			RelativePath="F:\study\MyLib\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
 					Name="VCCustomBuildTool"
 					Description="Building Custom Rule F:/study/MyLib/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
 					AdditionalDependencies="F:\study\MyLib\CMakeLists.txt;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;F:\study\MyLib\cmake\FLTK-Functions.cmake;F:\study\MyLib\cmake\macros.cmake;F:\study\MyLib\cmake\setup.cmake;F:\study\MyLib\cmake\resources.cmake;F:\study\MyLib\cmake\options.cmake;F:\study\MyLib\cmake\variables.cmake;F:\study\MyLib\cmake\export.cmake;F:\study\MyLib\cmake\install.cmake;F:\study\MyLib\CMakeLists.txt;"
-					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
+					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
 					Name="VCCustomBuildTool"
 					Description="Building Custom Rule F:/study/MyLib/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
 					AdditionalDependencies="F:\study\MyLib\CMakeLists.txt;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;F:\study\MyLib\cmake\FLTK-Functions.cmake;F:\study\MyLib\cmake\macros.cmake;F:\study\MyLib\cmake\setup.cmake;F:\study\MyLib\cmake\resources.cmake;F:\study\MyLib\cmake\options.cmake;F:\study\MyLib\cmake\variables.cmake;F:\study\MyLib\cmake\export.cmake;F:\study\MyLib\cmake\install.cmake;F:\study\MyLib\CMakeLists.txt;"
-					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="MinSizeRel|Win32">
-					<Tool
+					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
 					Name="VCCustomBuildTool"
 					Description="Building Custom Rule F:/study/MyLib/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
 					AdditionalDependencies="F:\study\MyLib\CMakeLists.txt;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;F:\study\MyLib\cmake\FLTK-Functions.cmake;F:\study\MyLib\cmake\macros.cmake;F:\study\MyLib\cmake\setup.cmake;F:\study\MyLib\cmake\resources.cmake;F:\study\MyLib\cmake\options.cmake;F:\study\MyLib\cmake\variables.cmake;F:\study\MyLib\cmake\export.cmake;F:\study\MyLib\cmake\install.cmake;F:\study\MyLib\CMakeLists.txt;"
-					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="RelWithDebInfo|Win32">
-					<Tool
+					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
 					Name="VCCustomBuildTool"
 					Description="Building Custom Rule F:/study/MyLib/CMakeLists.txt"
-					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
 					AdditionalDependencies="F:\study\MyLib\CMakeLists.txt;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeSystem.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;F:\study\MyLib\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake&quot;;F:\study\MyLib\cmake\FLTK-Functions.cmake;F:\study\MyLib\cmake\macros.cmake;F:\study\MyLib\cmake\setup.cmake;F:\study\MyLib\cmake\resources.cmake;F:\study\MyLib\cmake\options.cmake;F:\study\MyLib\cmake\variables.cmake;F:\study\MyLib\cmake\export.cmake;F:\study\MyLib\cmake\install.cmake;F:\study\MyLib\CMakeLists.txt;"
-					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"/>
-				</FileConfiguration>
-			</File>
+					Outputs="F:\study\MyLib\build\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>

@@ -21,6 +21,11 @@ option(OPTION_USE_LMTC_LIB  "use lmtc lib or not"  ON)
 #######################################################################
 option(OPTION_USE_ZIP  "use ZIP lib or not"  ON)
 #######################################################################
+
+#######################################################################
+option(OPTION_USE_NET_LIB  "use NET lib or not"  ON)
+#######################################################################
+
 if (OPTION_USE_LMTC_LIB)
 	set(LMTC_INCLUDE_DIR "${MYLIB_SOURCE_DIR}/Include/Math" "${MYLIB_SOURCE_DIR}/Include")
 	Message(STATUS "lmtc lib  used")
@@ -44,3 +49,8 @@ if(OPTION_USE_ZIP)
 	Message(STATUS "BUILD ZIP lib!")
 	add_subdirectory("${MYLIB_SOURCE_DIR}/modules/Zip")
 endif(OPTION_USE_ZIP)
+
+if(OPTION_USE_NET_LIB)
+	Message(STATUS "BUILD NET LIB!")
+	add_subdirectory("${MYLIB_SOURCE_DIR}/modules/Net")
+endif(OPTION_USE_NET_LIB)

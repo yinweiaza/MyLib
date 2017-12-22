@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="tnet_http"
+	ProjectGUID="{08EB0C26-EA84-3768-AEA8-F6E66F0CBE3A}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="F:\study\MyLib\build\lib\Debug"
+			IntermediateDirectory="tnet_http.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				AdditionalOptions="-std=c++0x -std=c++0x"
+				AssemblerListingLocation="Debug/"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				AdditionalOptions="/machine:X86"
+				OutputFile="F:\study\MyLib\build\lib\Debug\tnet_httpd.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="F:\study\MyLib\build\lib\Release"
+			IntermediateDirectory="tnet_http.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				AdditionalOptions="-std=c++0x -std=c++0x"
+				AssemblerListingLocation="Release/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				AdditionalOptions="/machine:X86"
+				OutputFile="F:\study\MyLib\build\lib\Release\tnet_http.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="F:\study\MyLib\build\lib\MinSizeRel"
+			IntermediateDirectory="tnet_http.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				AdditionalOptions="-std=c++0x -std=c++0x"
+				AssemblerListingLocation="MinSizeRel/"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				AdditionalOptions="/machine:X86"
+				OutputFile="F:\study\MyLib\build\lib\MinSizeRel\tnet_http.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="F:\study\MyLib\build\lib\RelWithDebInfo"
+			IntermediateDirectory="tnet_http.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				AdditionalOptions="-std=c++0x -std=c++0x"
+				AssemblerListingLocation="RelWithDebInfo/"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;HTTP_PARSER_STRICT=0;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="F:\study\MyLib\include;F:\study\MyLib\build\include;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\include&quot;;&quot;F:\study\MyLib\C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\atlmfc&quot;;F:\study\MyLib\Include\Math;F:\study\MyLib\Include;F:\study\MyLib\modules\Net\src\..;F:\study\MyLib\modules\Net\src\http\..;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCManifestTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				AdditionalOptions="/machine:X86"
+				OutputFile="F:\study\MyLib\build\lib\RelWithDebInfo\tnet_http.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/modules/Net/src/http/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/modules/Net/src/http/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\modules\Net\src\http\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/modules/Net/src/http/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/modules/Net/src/http/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\modules\Net\src\http\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/modules/Net/src/http/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/modules/Net/src/http/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\modules\Net\src\http\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule F:/study/MyLib/modules/Net/src/http/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -HF:/study/MyLib -BF:/study/MyLib/build --check-stamp-file F:/study/MyLib/build/modules/Net/src/http/CMakeFiles/generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;F:\study\MyLib\modules\Net\src\http\CMakeLists.txt;"
+					Outputs="F:\study\MyLib\build\modules\Net\src\http\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\http_parser.c">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCLCompilerTool"
+					CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpclient.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpconnection.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpconnector.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpparser.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httprequest.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpresponse.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httpserver.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\httputil.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\wsclient.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\wsconnection.cpp">
+			</File>
+			<File
+				RelativePath="F:\study\MyLib\modules\Net\src\http\wsutil.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
