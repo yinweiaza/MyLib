@@ -25,3 +25,12 @@ set(CMAKE_LIBRARY_PATH  ${MYLIB_SOURCE_DIR}/lib  ${MYLIB_SOURCE_DIR}/3rdparty/li
 set(VC_INSTALL_ROOT  "C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC")
 set(VC_INCLUDE  ${VC_INSTALL_ROOT}\include ${VC_INSTALL_ROOT}\atlmfc) 
 include_directories(${VC_INCLUDE})
+
+
+#wxWidgets setting
+if(MSVC)
+	set(WX_INCLUDE "C:\wxWidgets\include")
+	set(WX_LIB  "C:\wxWidgets\lib\vc_lib")
+	include_directories(${WX_INCLUDE})
+	link_directories(${WX_LIB})
+endif(MSVC)
