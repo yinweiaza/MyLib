@@ -9,7 +9,9 @@ if(MSVC)
 	set(WX_LIB  "C:\wxWidgets\lib\vc_lib")
 	include_directories(${WX_INCLUDE})
 	link_directories(${WX_LIB})
+	add_definitions(-D_UNICODE -DUNICODE)
 endif(MSVC)
+
 
 CREATE_EXAMPLE(WXTEST "${SRCS}"  "")
 

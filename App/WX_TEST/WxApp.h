@@ -11,7 +11,7 @@
 class	MyApp:public wxApp
 {
 	virtual bool OnInit();
-}
+};
 
 DECLARE_APP(MyApp)
 
@@ -34,5 +34,5 @@ class MyFrame: public wxFrame
 	private:
 		//event table
 		DECLARE_EVENT_TABLE()
-}
+};
 
